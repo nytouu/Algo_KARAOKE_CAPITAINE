@@ -42,7 +42,7 @@ class Player():
 
         return worst
 
-    def getScore(self, song: int):
+    def getScore(self, song: int) -> int:
         return self.scores[song]
 
 
