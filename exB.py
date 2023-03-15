@@ -86,6 +86,7 @@ class Karaoke():
         for player in self.players:
             if player.getScore(i) > best:
                 best = player.getScore(i)
+
         return best
 
     def getBestPlayerAverage(self) -> int:
